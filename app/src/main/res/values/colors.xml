@@ -11,6 +11,8 @@
     <color name="color_primary">#5468FF</color>
     <color name="color_black">#05050C</color>
     <color name="color_black_80">#CC05050C</color>
-
+    <color name="color_grey">#9CA8C2</color>
+    <color name="color_dark_grey">#A9AEB8</color>
+    <color name="color_light_white">#F8FAFB</color>
 
 </resources>

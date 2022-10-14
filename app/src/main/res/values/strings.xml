@@ -1,7 +1,16 @@
 <resources>
     <string name="app_name">SweetThreads</string>
-    <string name="lbl_greeting_detail">Buy your favourite shirts or skirts on\nonly one platform. You can order it\nanytime and any where.</string>
+    <string name="lbl_greeting_detail">Buy your favourite wear or gadget on\nonly one platform. You can order it\nanytime and any where.</string>
     <string name="lbl_app_name">Sweet Thread</string>
     <string name="lbl_dot">•</string>
     <string name="lbl_get_started">Get Started</string>
+    <string name="lbl_welcome_back">Welcome Back!</string>
+    <string name="lbl_please_log_in">Please log in to your account</string>
+    <string name="lbl_email">Email</string>
+    <string name="lbl_password">Password</string>
+    <string name="lbl_forgot_password">Forgot Password?</string>
+    <string name="lbl_sign_in_wit_google">Sign in wit Google</string>
+    <string name="lbl_sign_in">Sign In</string>
+    <string name="lbl_dont_t_have_an_account">Dont\'t have an Account?</string>
+    <string name="lbl_sign_up">Sign Up</string>
 </resources>

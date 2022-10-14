@@ -4,11 +4,16 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/thura/AndroidStudioProjects/SweetThreads/app/src/main/res/drawable/bg_black_color_gradient.xml" value="0.1305" />
+        <entry key="..\:/Users/thura/AndroidStudioProjects/SweetThreads/app/src/main/res/drawable/button_grey_color_rounded.xml" value="0.1305" />
         <entry key="..\:/Users/thura/AndroidStudioProjects/SweetThreads/app/src/main/res/drawable/button_primary_color_rounded.xml" value="0.1305" />
         <entry key="..\:/Users/thura/AndroidStudioProjects/SweetThreads/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1305" />
+        <entry key="..\:/Users/thura/AndroidStudioProjects/SweetThreads/app/src/main/res/drawable/primary_cursor.xml" value="0.1305" />
         <entry key="..\:/Users/thura/AndroidStudioProjects/SweetThreads/app/src/main/res/font/font.xml" value="0.24166666666666667" />
         <entry key="..\:/Users/thura/AndroidStudioProjects/SweetThreads/app/src/main/res/layout/activity_get_started.xml" value="0.264" />
+        <entry key="..\:/Users/thura/AndroidStudioProjects/SweetThreads/app/src/main/res/layout/activity_login.xml" value="0.264" />
         <entry key="..\:/Users/thura/AndroidStudioProjects/SweetThreads/app/src/main/res/layout/activity_main.xml" value="0.1721014492753623" />
+        <entry key="..\:/Users/thura/AndroidStudioProjects/SweetThreads/app/src/main/res/layout/view_auth_title.xml" value="0.1721014492753623" />
+        <entry key="..\:/Users/thura/AndroidStudioProjects/SweetThreads/app/src/main/res/layout/viewpod_auth_title.xml" value="0.2" />
       </map>
     </option>
   </component>

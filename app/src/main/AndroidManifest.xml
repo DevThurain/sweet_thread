@@ -14,20 +14,24 @@
         android:theme="@style/Theme.SweetThreads"
         tools:targetApi="31">
         <activity
-            android:theme="@style/Theme.SweetThreads.translucentScreen"
-            android:name=".activities.GetStartedActivity"
-            android:exported="true">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+            android:name=".activities.LoginActivity"
+            android:exported="true"
+            android:theme="@style/Theme.SweetThreads.translucentScreenDarkStatusBar"
+            >
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.GetStartedActivity"
+            android:exported="true"
+            android:theme="@style/Theme.SweetThreads.translucentScreenWhiteStatusBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true"></activity>
     </application>
 
 </manifest>
