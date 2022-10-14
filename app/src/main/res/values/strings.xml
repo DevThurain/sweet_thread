@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">SweetThreads</string>
+    <string name="lbl_greeting_detail">Buy your favourite shirts or skirts on\nonly one platform. You can order it\nanytime and any where.</string>
+    <string name="lbl_app_name">Sweet Thread</string>
+    <string name="lbl_dot">•</string>
+    <string name="lbl_get_started">Get Started</string>
 </resources>
