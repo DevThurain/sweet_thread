@@ -5,6 +5,7 @@
       <map>
         <entry key="..\:/Users/thura/AndroidStudioProjects/SweetThreads/app/src/main/res/drawable/bg_black_color_gradient.xml" value="0.1305" />
         <entry key="..\:/Users/thura/AndroidStudioProjects/SweetThreads/app/src/main/res/drawable/bg_category.xml" value="0.193" />
+        <entry key="..\:/Users/thura/AndroidStudioProjects/SweetThreads/app/src/main/res/drawable/bg_product.xml" value="0.193" />
         <entry key="..\:/Users/thura/AndroidStudioProjects/SweetThreads/app/src/main/res/drawable/button_grey_color_rounded.xml" value="0.1305" />
         <entry key="..\:/Users/thura/AndroidStudioProjects/SweetThreads/app/src/main/res/drawable/button_grey_outline.xml" value="0.1305" />
         <entry key="..\:/Users/thura/AndroidStudioProjects/SweetThreads/app/src/main/res/drawable/button_primary_color_rounded.xml" value="0.1305" />
@@ -12,16 +13,18 @@
         <entry key="..\:/Users/thura/AndroidStudioProjects/SweetThreads/app/src/main/res/drawable/ic_cart.xml" value="0.121" />
         <entry key="..\:/Users/thura/AndroidStudioProjects/SweetThreads/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1305" />
         <entry key="..\:/Users/thura/AndroidStudioProjects/SweetThreads/app/src/main/res/drawable/primary_cursor.xml" value="0.1305" />
+        <entry key="..\:/Users/thura/AndroidStudioProjects/SweetThreads/app/src/main/res/drawable/selector_checkbox_favourite.xml" value="0.193" />
         <entry key="..\:/Users/thura/AndroidStudioProjects/SweetThreads/app/src/main/res/drawable/selector_favourite.xml" value="0.1305" />
         <entry key="..\:/Users/thura/AndroidStudioProjects/SweetThreads/app/src/main/res/drawable/selector_home.xml" value="0.1305" />
         <entry key="..\:/Users/thura/AndroidStudioProjects/SweetThreads/app/src/main/res/drawable/selector_notification.xml" value="0.1305" />
         <entry key="..\:/Users/thura/AndroidStudioProjects/SweetThreads/app/src/main/res/drawable/selector_profile.xml" value="0.1305" />
+        <entry key="..\:/Users/thura/AndroidStudioProjects/SweetThreads/app/src/main/res/drawable/selector_toggle_favourite.xml" value="0.1255" />
         <entry key="..\:/Users/thura/AndroidStudioProjects/SweetThreads/app/src/main/res/font/font.xml" value="0.24166666666666667" />
         <entry key="..\:/Users/thura/AndroidStudioProjects/SweetThreads/app/src/main/res/layout/activity_based.xml" value="0.264" />
         <entry key="..\:/Users/thura/AndroidStudioProjects/SweetThreads/app/src/main/res/layout/activity_get_started.xml" value="0.264" />
         <entry key="..\:/Users/thura/AndroidStudioProjects/SweetThreads/app/src/main/res/layout/activity_login.xml" value="0.264" />
         <entry key="..\:/Users/thura/AndroidStudioProjects/SweetThreads/app/src/main/res/layout/activity_main.xml" value="0.1721014492753623" />
-        <entry key="..\:/Users/thura/AndroidStudioProjects/SweetThreads/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/Users/thura/AndroidStudioProjects/SweetThreads/app/src/main/res/layout/fragment_home.xml" value="0.2104340201665936" />
         <entry key="..\:/Users/thura/AndroidStudioProjects/SweetThreads/app/src/main/res/layout/view_auth_title.xml" value="0.1721014492753623" />
         <entry key="..\:/Users/thura/AndroidStudioProjects/SweetThreads/app/src/main/res/layout/view_holder_category.xml" value="0.20878623188405798" />
         <entry key="..\:/Users/thura/AndroidStudioProjects/SweetThreads/app/src/main/res/layout/view_holder_product.xml" value="0.4" />

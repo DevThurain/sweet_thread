@@ -1,13 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="wrap_content"
-    android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_product">
 
-   <com.thurainx.sweetthreads.components.TopRoundedImageView
+   <com.thurainx.sweetthreads.components.RoundedImageView
+       android:id="@+id/ivProductPhoto"
        android:layout_width="match_parent"
        android:layout_height="200dp"
+
        android:scaleType="centerCrop"
+       app:cornerRadius="@dimen/margin_small"
        app:srcCompat="@drawable/dummy_cloth" />
+
+   <com.google.android.material.checkbox.MaterialCheckBox
+       android:layout_width="18dp"
+       android:layout_height="18dp"
+       android:layout_alignParentTop="true"
+       android:layout_alignParentEnd="true"
+       android:layout_margin="@dimen/margin_medium"
+       android:background="@drawable/selector_favourite"
+       android:button="@null"
+       android:backgroundTint="@color/color_primary"
+       android:checked="false" />
+
+   <androidx.appcompat.widget.AppCompatTextView
+       android:id="@+id/tvProductTitle"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/ivProductPhoto"
+       android:layout_marginStart="@dimen/margin_medium"
+       android:layout_marginTop="@dimen/margin_medium"
+       android:fontFamily="@font/poppins_regular"
+       android:lines="1"
+       android:text="Casual Cloth"
+       android:textAlignment="textStart"
+       android:textColor="@color/black"
+       android:textSize="@dimen/text_small"
+       android:textStyle="bold" />
+
+   <androidx.appcompat.widget.AppCompatTextView
+       android:id="@+id/tvProductSubText"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/tvProductTitle"
+       android:layout_marginHorizontal="@dimen/margin_medium"
+       android:ellipsize="middle"
+       android:fontFamily="@font/poppins_regular"
+       android:lines="2"
+       android:text="Our most popular laptop, MacBook Air is supercharged by M1 and M2 chips. Featuring FaceTime HD camera, Touch ID, and vibrant Retina display."
+       android:textAlignment="textStart"
+       android:textColor="@color/color_dark_grey"
+       android:textSize="@dimen/text_smaller" />
+
+   <androidx.appcompat.widget.AppCompatTextView
+       android:id="@+id/tvProductPrice"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignTop="@id/btnProductAdd"
+       android:layout_alignBottom="@id/btnProductAdd"
+       android:layout_marginStart="@dimen/margin_medium"
+       android:layout_marginTop="@dimen/margin_medium"
+       android:layout_marginEnd="@dimen/margin_medium"
+       android:layout_marginBottom="@dimen/margin_medium"
+       android:fontFamily="@font/poppins_regular"
+       android:gravity="center"
+       android:text="2,500 MMK"
+       android:textColor="@color/black"
+       android:textSize="@dimen/text_small"
+       android:textStyle="bold" />
+
+
+   <com.google.android.material.button.MaterialButton
+       android:id="@+id/btnProductAdd"
+       style="@style/Widget.Material3.Button.IconButton"
+       android:layout_width="wrap_content"
+       android:layout_height="45dp"
+       android:layout_below="@id/tvProductSubText"
+       android:layout_alignParentEnd="true"
+       android:layout_marginVertical="@dimen/margin_medium"
+       android:layout_marginEnd="@dimen/margin_medium"
+       android:drawablePadding="0dp"
+       android:fontFamily="@font/poppins_regular"
+       android:textAllCaps="false"
+       android:textSize="@dimen/text_smaller"
+       app:cornerRadius="@dimen/margin_small"
+       app:icon="@drawable/ic_add"
+       android:backgroundTint="@color/color_primary"
+       app:iconTint="@color/white"
+       app:iconSize="@dimen/margin_medium_2" />
+
 
 </RelativeLayout>

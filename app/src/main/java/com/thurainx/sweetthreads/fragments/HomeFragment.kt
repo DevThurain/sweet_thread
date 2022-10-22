@@ -11,6 +11,9 @@ import androidx.core.content.ContextCompat.getSystemService
 import androidx.fragment.app.Fragment
 import com.thurainx.sweetthreads.R
 import com.thurainx.sweetthreads.adapters.CategoryAdapter
+import com.thurainx.sweetthreads.adapters.ProductAdapter
+import com.thurainx.sweetthreads.components.GridSpacingItemDecoration
+import com.thurainx.sweetthreads.mvp.models.SweetThreadsModelImpl
 import kotlinx.android.synthetic.main.fragment_home.*
 import kotlinx.android.synthetic.main.fragment_home.view.*
 
@@ -29,6 +32,8 @@ class HomeFragment : Fragment() {
 
 
     lateinit var categoryAdapter: CategoryAdapter
+    lateinit var productAdapter: ProductAdapter
+    val sweetThreadsModel = SweetThreadsModelImpl
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -42,7 +47,19 @@ class HomeFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         setupCategoryRecyclerView()
+        setupProductRecyclerView()
+        sweetThreadsModel.getCategoryList(
+            onSuccess = {},
+            onFail = {}
+        )
 
+    }
+
+    private fun setupProductRecyclerView() {
+        productAdapter = ProductAdapter()
+        rvProduct.adapter = productAdapter
+        val gridSpacing = GridSpacingItemDecoration(2, 35, false)
+        rvProduct.addItemDecoration(gridSpacing)
     }
 
     private fun setupCategoryRecyclerView() {

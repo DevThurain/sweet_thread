@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1039762802548",
+    "project_id": "sweet-thread",
+    "storage_bucket": "sweet-thread.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1039762802548:android:a7f8be235668fdc7228e21",
+        "android_client_info": {
+          "package_name": "com.thurainx.sweetthreads"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1039762802548-nevsfchgp3a4fjl6tdege01794s95k14.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.thurainx.sweetthreads",
+            "certificate_hash": "ce8e9f8e03eebfdd735be22e977e5cfdaa037a94"
+          }
+        },
+        {
+          "client_id": "1039762802548-flv03coo0jt8eqi7r5nocr1bkkn6sf9t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC00ELh6CeVA9ey1IkM26_45foZ-C48pBk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1039762802548-flv03coo0jt8eqi7r5nocr1bkkn6sf9t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

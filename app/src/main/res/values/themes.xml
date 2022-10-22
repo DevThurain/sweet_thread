@@ -37,4 +37,9 @@
         <item name="android:windowLightStatusBar">false</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
+    
+    <style name="FavouriteCheckBox" parent="Widget.Material3.CompoundButton.CheckBox">
+
+        
+    </style>
 </resources>
