@@ -1,5 +1,7 @@
 package com.thurainx.sweetthreads.activities
 
+import android.content.Context
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -10,6 +12,13 @@ import kotlinx.android.synthetic.main.activity_based.*
 
 class BasedActivity : AppCompatActivity() {
     lateinit var viewPagerAdapter: BottomNavigationViewPagerAdapter
+
+    companion object{
+        fun getIntent(context: Context) : Intent {
+            val intent = Intent(context, BasedActivity::class.java)
+            return intent
+        }
+    }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_based)

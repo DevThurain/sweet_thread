@@ -21,21 +21,23 @@
             android:theme="@style/Theme.SweetThreads.darkStatusBar"
             >
 
+        </activity>
+        <activity
+            android:name=".activities.LoginActivity"
+            android:exported="true"
+            android:theme="@style/Theme.SweetThreads.translucentScreenDarkStatusBar">
+
+
+        </activity>
+        <activity
+            android:name=".activities.GetStartedActivity"
+            android:exported="true"
+            android:theme="@style/Theme.SweetThreads.translucentScreenWhiteStatusBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity
-            android:name=".activities.LoginActivity"
-            android:exported="true"
-            android:theme="@style/Theme.SweetThreads.translucentScreenDarkStatusBar"></activity>
-        <activity
-            android:name=".activities.GetStartedActivity"
-            android:exported="true"
-            android:theme="@style/Theme.SweetThreads.translucentScreenWhiteStatusBar">
-
         </activity>
         <activity
             android:name=".MainActivity"
